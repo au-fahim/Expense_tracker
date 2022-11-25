@@ -133,7 +133,7 @@ button.delete_btn {
 }
 
 button.delete_btn:focus {
-    opacity: 1;
+  opacity: 1;
 }
 
 li.minus {
@@ -144,7 +144,8 @@ li.plus {
   border-right: 0.25rem solid #2ecc71;
 }
 
-ul#list li:hover .delete_btn, ul#list li:focus .delete_btn {
+ul#list li:hover .delete_btn,
+ul#list li:focus .delete_btn {
   opacity: 1;
 }
 
@@ -188,7 +189,7 @@ button.btn {
   width: 100%;
   color: white;
   padding: 10px;
-  margin: 10px 0 30px;
+  margin: 1rem 0 2rem;
   cursor: pointer;
   text-transform: capitalize;
 }
